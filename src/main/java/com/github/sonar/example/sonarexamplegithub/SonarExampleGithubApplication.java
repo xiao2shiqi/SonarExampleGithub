@@ -19,6 +19,8 @@ public class SonarExampleGithubApplication {
     public String home() {
         Map<String, String> hashMap = new HashMap<>();
         hashMap.get("55");
+
+        String ab = "a" + "b";
         return "hello github";
     }
 
